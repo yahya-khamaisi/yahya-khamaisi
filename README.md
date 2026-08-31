@@ -38,10 +38,8 @@ More on the [portfolio](https://yahya-khamaisi.github.io/).
 
 ## GitHub
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=yahya-khamaisi&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="Yahya's GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yahya-khamaisi&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="165" />
-</p>
+<!-- github-metrics.svg is regenerated daily by .github/workflows/metrics.yml -->
+<img src="./github-metrics.svg" alt="Yahya's GitHub metrics" />
 
 ## Connect
 

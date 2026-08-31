@@ -1,0 +1,36 @@
+name: Metrics
+
+on:
+  # Rebuild the stats image once a day
+  schedule:
+    - cron: "17 3 * * *"
+  # ...and on demand
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate stats image
+        uses: lowlighter/metrics@latest
+        with:
+          # Uses the built-in token so this works with no extra setup.
+          # For private-contribution counts, create a classic PAT with
+          # `repo` + `read:org` scope, save it as the `METRICS_TOKEN`
+          # secret, and swap the line below to:
+          #   token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: yahya-khamaisi
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Dubai
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, jupyter notebook
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
