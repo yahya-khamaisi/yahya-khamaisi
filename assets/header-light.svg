@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Yahya Khamayseh, Full-Stack AI Engineer">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1F5F9"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0D9488"/><stop offset="1" stop-color="#7C3AED"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+  </pattern>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity=".9"/>
+  </linearGradient>
+  <mask id="gridmask"><rect width="1280" height="340" fill="url(#fade)"/></mask>
+  <clipPath id="frame"><rect width="1280" height="340" rx="20"/></clipPath>
+</defs>
+<style>
+  .name { font: 700 54px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0F172A; letter-spacing: -1.5px; }
+  .role { font: 600 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: url(#accent); letter-spacing: 2px; }
+  .tag  { font: 400 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #475569; }
+  .stat { font: 700 26px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0F172A; }
+  .small { font: 400 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #475569; }
+  .mono { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #0F172A; }
+  .chip { fill: #FFFFFF; stroke: #CBD5E1; stroke-width: 1.2; }
+  .dot  { fill: #0D9488; }
+  .edge { stroke: #CBD5E1; stroke-width: 2; }
+  .flow { stroke: url(#accent); stroke-width: 2.4; stroke-linecap: round;
+           stroke-dasharray: 18 400; stroke-dashoffset: 418;
+           animation: flow 3.2s linear infinite; }
+  .rule { stroke: #CBD5E1; stroke-width: 1; }
+  @keyframes flow { to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { .flow { display: none; } }
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <rect width="1280" height="340" fill="url(#grid)" mask="url(#gridmask)"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  <text x="64" y="74" class="role">FULL-STACK AI ENGINEER · DUBAI</text>
+  <text x="64" y="138" class="name">Yahya Khamayseh</text>
+  <text x="64" y="180" class="tag">I build AI systems for production: agents, retrieval,</text>
+  <text x="64" y="208" class="tag">the APIs around them, and the cloud they run on.</text>
+  <line x1="64" y1="238" x2="640" y2="238" class="rule"/>
+  <text x="64" y="276" class="stat">6+</text><text x="64" y="298" class="small">years shipping</text><text x="214" y="276" class="stat">5</text><text x="214" y="298" class="small">companies</text><text x="364" y="276" class="stat">4</text><text x="364" y="298" class="small">publications</text><text x="514" y="276" class="stat">PhD</text><text x="514" y="298" class="small">applied AI</text>
+  <line x1="820" y1="92" x2="960" y2="92" class="edge"/><line x1="820" y1="92" x2="960" y2="92" class="flow" style="animation-delay:0.00s"/><line x1="960" y1="92" x2="1100" y2="92" class="edge"/><line x1="960" y1="92" x2="1100" y2="92" class="flow" style="animation-delay:0.45s"/><line x1="1100" y1="92" x2="1030" y2="196" class="edge"/><line x1="1100" y1="92" x2="1030" y2="196" class="flow" style="animation-delay:0.90s"/><line x1="1030" y1="196" x2="890" y2="196" class="edge"/><line x1="1030" y1="196" x2="890" y2="196" class="flow" style="animation-delay:1.35s"/><line x1="890" y1="196" x2="960" y2="92" class="edge"/><line x1="890" y1="196" x2="960" y2="92" class="flow" style="animation-delay:1.80s"/><line x1="1100" y1="92" x2="1170" y2="196" class="edge"/><line x1="1100" y1="92" x2="1170" y2="196" class="flow" style="animation-delay:2.25s"/><line x1="1030" y1="196" x2="1170" y2="196" class="edge"/><line x1="1030" y1="196" x2="1170" y2="196" class="flow" style="animation-delay:2.70s"/>
+  <g><rect x="780.8" y="75" width="78.4" height="34" rx="17" class="chip"/><circle cx="795.8" cy="92" r="4" class="dot"/><text x="826.0" y="97" class="mono" text-anchor="middle">portal</text></g><g><rect x="933.4" y="75" width="53.2" height="34" rx="17" class="chip"/><circle cx="948.4" cy="92" r="4" class="dot"/><text x="966.0" y="97" class="mono" text-anchor="middle">api</text></g><g><rect x="1060.8" y="75" width="78.4" height="34" rx="17" class="chip"/><circle cx="1075.8" cy="92" r="4" class="dot"/><text x="1106.0" y="97" class="mono" text-anchor="middle">agents</text></g><g><rect x="978.2" y="179" width="103.6" height="34" rx="17" class="chip"/><circle cx="993.2" cy="196" r="4" class="dot"/><text x="1036.0" y="201" class="mono" text-anchor="middle">retrieval</text></g><g><rect x="1135.0" y="179" width="70.0" height="34" rx="17" class="chip"/><circle cx="1150.0" cy="196" r="4" class="dot"/><text x="1176.0" y="201" class="mono" text-anchor="middle">azure</text></g><g><rect x="863.4" y="179" width="53.2" height="34" rx="17" class="chip"/><circle cx="878.4" cy="196" r="4" class="dot"/><text x="896.0" y="201" class="mono" text-anchor="middle">llm</text></g>
+</g>
+</svg>
